@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #1a1a1a;
+    width: 95vw;
+    border-bottom: 2px solid #2e7d32;
+}
+  
+.nav {
+    display: flex;
+}
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.68rem;
+    transition: color 0.3s;
+    margin-right: 1vw;
+}
+  
+  .nav a:hover {
+    color: #4caf50;
+  }
+  
+  .language-flags {
+    display: inline-flex;
+    gap: 1rem;
+    margin-left: 3vw;
+}
+  
+  .language-flags img {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+  }
+  
+  .language-flags img:hover,
+  .language-flags img.active {
+    opacity: 1;
+  }
+  
+  
