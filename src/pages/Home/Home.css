@@ -1,19 +1,29 @@
-.home {
-  background-color: #1a1a1a;
-  color: white;
-}
-  
-.profile-section {
-  text-align: justify;
-}
-  
-.profile-image {
-  margin: 2rem 0;
-}
+  .home {
+    background-color: #1a1a1a;
+    color: white;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .profile-section {
+    text-align: center;
+  }
+
+  .profile-image {
+    width: 30vw;
+    display: inline-flex;
+    align-items: center;
+    height: 30vw;
+  }
 
   .circle {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 3px solid #4caf50;
     margin: 0 auto;
@@ -21,34 +31,133 @@
 
   .greeting {
     font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-    padding: 3vw;
+    display: inline-block;
+    width: 50vw;
+    height: 40vh;
+    text-align: justify;
     line-height: 1.6;
-}
-  
-.about, .cta {
-  font-size: 1.2rem;
-  margin-bottom: 1.5rem;
-  padding: 2vw;
-  line-height: 1.6;
-}
-  
-.social-links {
-  display: flex;
-  margin-top: 2rem;
-  text-align: center;
-  width: 100vw;
-}
-  
+    padding: 0 1rem;
+  }
+
+  .about,
+  .cta {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    padding: 2vw;
+    line-height: 1.6;
+  }
+
+  .social-links {
+    display: flex;
+    margin-top: 2rem;
+    text-align: center;
+    width: 100vw;
+    place-content: center;
+    justify-content: space-evenly;
+  }
+
   .social-links img {
     width: 30px;
     height: 30px;
     opacity: 0.7;
     transition: opacity 0.3s;
   }
-  
+
   .social-links img:hover {
     opacity: 1;
   }
-  
-  
+
+  .fooster_link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 100vw;
+  }
+
+  @media (max-width: 768px) {
+
+    .home {
+      background-color: #1a1a1a;
+      color: white;
+    }
+
+    .profile-section {
+      text-align: justify;
+    }
+
+    .profile-image {
+      display: contents;
+      margin: 2rem 0;
+    }
+
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 3px solid #4caf50;
+      margin: 0 auto;
+    }
+
+    .greeting {
+      font-size: 1.2rem;
+      width: 100vw;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      padding: 1rem 1.5rem;
+    }
+
+    .about,
+    .cta {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+      padding: 2vw;
+      line-height: 1.6;
+    }
+
+    .social-links {
+      display: flex;
+      margin-top: 2rem;
+      text-align: center;
+      width: 100vw;
+    }
+
+    .social-links img {
+      width: 30px;
+      height: 30px;
+      opacity: 0.7;
+      transition: opacity 0.3s;
+    }
+
+    .social-links img:hover {
+      opacity: 1;
+    }
+
+  }
+
+  @media (min-width: 1440px) {
+
+    .profile-image {
+      display: inline-flex;
+      align-items: center;
+      height: 37vh;
+    }
+
+    .greeting {
+      font-size: 1.2rem;
+      display: inline-block;
+      text-align: justify;
+      width: 45vw;
+      line-height: 1.6;
+      padding: 0px 6rem;
+    }
+
+    .social-links {
+      display: flex;
+      text-align: center;
+      width: 100vw;
+      margin-top: 5vw;
+      place-content: center;
+      justify-content: space-evenly;
+    }
+
+  }
