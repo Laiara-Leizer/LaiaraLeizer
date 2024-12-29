@@ -66,7 +66,7 @@ const Home = () => {
           </a>
         </div>
 
-        <span className='MadeOf'>Feito por: Laiara Leizer com o auxilio da IA v0.com para tradução e aprimoramento das rotas. E DALL-E para criação do Favicon.ico</span>
+        <span className='MadeOf'>Feito por: Laiara Leizer com o auxilio da IA "v0.dev" para tradução e aprimoramento das rotas. E DALL-E para criação do Favicon.ico</span>
 
       </div>
     </Container>
