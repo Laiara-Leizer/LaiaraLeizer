@@ -1,35 +1,74 @@
 import React, { useContext } from 'react';
+import { Container, Card } from 'react-bootstrap';
 import { LanguageContext } from '../../context/LanguageContext';
 import './Knowledge.css';
 
-export default function Knowledge() {
-  const { language, translations } = useContext(LanguageContext);
-  const t = translations[language].Knowledge;
+const Knowledge = () => {
+  const { translations } = useContext(LanguageContext);
+  const k = translations.knowledge;
 
   return (
-    <div className="knowledge-page">
-      <div className="diagonal-line"></div>
-      <div className="content">
-        <h1>{t.title}</h1>
+    <Container className="knowledge">
+      <h2 className="text-center mb-4">{k.title}</h2>
+      <p className="text-center mb-4">{k.passion}</p>
+      <p className="text-center mb-4">{k.currently}</p>
+      
+      <div className="knowledge-cards">
+        {Object.entries(k.categories).map(([key, category]) => (
+          <Card key={key} className="mb-4">
+            <Card.Body>
+              <Card.Title>{category.title}</Card.Title>
+              <Card.Text>{category.description}</Card.Text>
+            </Card.Body>
+          </Card>
+        ))}
 
-        <div className="knowledge-content">
-          <p className="passion">{t.passion}</p>
-          <p className="currently">{t.currently}</p>
-          
-          <div className="skills-list">
-            <p>{t.software}</p>
-            <p>{t.design}</p>
-            <p>{t.frontend}</p>
-            <p>{t.backend}</p>
-            <p>{t.databases}</p>
-            <p>{t.frameworks}</p>
-            <p>{t.additional}</p>
-            <p>{t.inProgress}</p>
-            <p className="future">{t.future}</p>
-            <p className="languages">{t.languages}</p>
-          </div>
-        </div>
+        <Card className="mb-4">
+          <Card.Body>
+            <Card.Title>Artificial Intelligence (IA)</Card.Title>
+            <Card.Text>{k.ia}</Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card className="mb-4">
+          <Card.Body>
+            <Card.Title>Additional Skills</Card.Title>
+            <Card.Text>{k.additional}</Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card className="mb-4">
+          <Card.Body>
+            <Card.Title>In Progress</Card.Title>
+            <Card.Text>{k.inProgress}</Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card className="mb-4">
+          <Card.Body>
+            <Card.Title>Future Learning</Card.Title>
+            <Card.Text>{k.future}</Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card className="mb-4">
+          <Card.Body>
+            <Card.Title>Languages</Card.Title>
+            <Card.Text>{k.languages}</Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card className="mb-4">
+          <Card.Body>
+            <Card.Title>Agile Methods</Card.Title>
+            <Card.Text>{k.Agile}</Card.Text>
+          </Card.Body>
+        </Card>
+
       </div>
-    </div>
+    </Container>
   );
-}
+};
+
+export default Knowledge;
+

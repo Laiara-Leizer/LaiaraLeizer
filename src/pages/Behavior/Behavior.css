@@ -1,0 +1,21 @@
+.behavior {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.behavior-cards .card {
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.behavior-cards .card:hover {
+  transform: translateY(-5px);
+}
+
+.behavior-cards .card-title {
+  color: #4caf50;
+}
+
+.behavior-cards .card-text {
+  color: #000;
+}
