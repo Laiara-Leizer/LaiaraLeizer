@@ -63,8 +63,8 @@ const translations = {
           description: 'Angular, React e Bootstrap'
         }
       },
-      ia: 'Conhecimentos básicos de inteligência artificial, neste caso a sua utilização para a criação de sites Web. Além disso, em busca de conhecimentos para criar um no futuro (para fins de aprendizagem);',
-      additional: 'C, Redes, Manutenção básica de Computadores e Sistemas Operacionais',
+      ia: 'Conhecimentos básicos de inteligência artificial, neste caso a sua utilização para a criação de sites Web. Além disso, em busca de conhecimentos para criar uma no futuro (para fins de aprendizagem);',
+      additional: 'C, Redes, Manutenção de Computadores e Sistemas Operacionais',
       inProgress: 'Illustrator, InDesign, Inglês',
       future: 'Cyber Segurança, Análise e Desenvolvimento de Sistemas, Gestão de Processos e Métodos Ágeis, Mecatrônica, Engenharia da Computação e/ou Ciência da Computação',
       languages: 'Português (nativa) e Inglês (Intermediário)',
@@ -72,27 +72,43 @@ const translations = {
     },
     projects: {
       title: 'Meus Projetos',
-      viewGithub: 'Ver no GitHub',
-      viewSite: 'Ver Site',
-      viewCode: 'Ver Código',
-      items: {
-        psicda: {
-          title: 'PSICDA',
-          description: 'Site feito para meu Trabalho de Conclusão de Curso, além disso, feito com o intuito de ser transformado em uma mini empresa, ou ao menos, uma pequena organização para realmente auxiliar crianças.'
+      items: [
+        {
+          title: "PSICDA",
+          description: "Site feito para meu Trabalho de Conclusão de Curso, além disso, feito com o intuito de ser transformado em uma mini empresa, ou ao menos, uma pequena organização para realmente auxiliar crianças.",
+          commits: 26,
+          github: "https://github.com/Laiara-Leizer/PSICDA_01",
+          siteUrl: "https://psicda.onrender.com/"
         },
-        devsChat: {
-          title: 'Devs_Chat',
-          description: 'Trabalho feito para consumir uma API fake, criada por mim.'
+        {
+          title: "Devs_Chat",
+          description: "Trabalho feito para consumir uma API fake, criada por mim. O trabalho em questão são varias salas de bate-papo, as quais Desenvolvedores podem conversar entre si para trocar ideias e interagir, como um discord, mas expecífico para Devs.",
+          commits: 9,
+          github: "https://github.com/Laiara-Leizer/Devs_Chat",
+          siteUrl: "https://devs-chat-iota.vercel.app/"
         },
-        devsChatApi: {
-          title: 'Devs_Chat_API',
-          description: 'A API, a qual foi consumida no trabalho Devs_Chat.'
+        {
+          title: "Devs_Chat_API",
+          description: "A API, a qual foi consumida no trabalho Devs_Chat. Esse trabalho foi expecifícadamente a api, demorou muito, mas com o mesmo, aprendi a criar APIs REST e que utilizem o banco de dados MongoDB.",
+          commits: 46,
+          github: "https://github.com/Laiara-Leizer/Devs_Chat_API",
+          siteUrl: "https://devs-chat-api.onrender.com/"
         },
-        restlux: {
-          title: 'RestLux',
-          description: 'Site fictício feito com uma API fake. O site tem como objetivo ser um site de restaurantes "de luxo", sendo predominantemente restaurantes de Taquara-RS.'
+        {
+          title: "RestLux",
+          description: "Site fictício feito com uma API fake. O site tem como objetivo ser um site de restaurantes \"de luxo\", sendo predominantemente restaurantes de Taquara-RS.",
+          commits: 14,
+          github: "https://github.com/Laiara-Leizer/RestLux",
+          siteUrl: "https://restlux.vercel.app/"
+        },
+        {
+          title: "Java",
+          description: "Minha pasta com todos os projetinhos em java de forma organizada - EM ANDAMENTO - Já que estou organizando mais ou menos um ano de trabalhos escolares.",
+          commits: 0,
+          github: "https://github.com/Laiara-Leizer/Trabalhos_em_java",
+          siteUrl: "/"
         }
-      }
+      ]
     }
   },
   en: {
@@ -156,7 +172,7 @@ const translations = {
         }
       },
       ia: 'Basic understanding of artificial intelligence, in this case its use for creating websites. Also, in search of knowledge to create one in the future (for learning purposes);',
-      additional: 'C, Networks, Basic Computer Maintenance and Operating Systems',
+      additional: 'C, Networks, Computer Maintenance and Operating Systems',
       inProgress: 'Illustrator, InDesign, English',
       future: 'Cyber Security, Systems Analysis and Development, Process Management and Agile Methods, Mechatronics, Computer Engineering and/or Computer Science',
       languages: 'Portuguese (native) and English (Intermediate)',
@@ -164,27 +180,43 @@ const translations = {
     },
     projects: {
       title: 'My Projects',
-      viewGithub: 'View on GitHub',
-      viewSite: 'View Site',
-      viewCode: 'View Code',
-      items: {
-        psicda: {
-          title: 'PSICDA',
-          description: 'Website made for my Course Conclusion Work, furthermore, made with the intention of being transformed into a mini company, or at least, a small organization to really help children.'
+      items: [
+        {
+          title: "PSICDA",
+          description: "Website made for my Course Conclusion Work, additionally, made with the intention of being transformed into a mini company, or at least, a small organization to really help children.",
+          commits: 26,
+          github: "https://github.com/Laiara-Leizer/PSICDA_01",
+          siteUrl: "https://psicda.onrender.com/"
         },
-        devsChat: {
-          title: 'Devs_Chat',
-          description: 'Work done to consume a fake API, created by me.'
+        {
+          title: "Devs_Chat",
+          description: "Work done to consume a fake API, created by me. The work in question consists of various chat rooms where Developers can chat among themselves to exchange ideas and interact, like discord, but specific for Devs.",
+          commits: 9,
+          github: "https://github.com/Laiara-Leizer/Devs_Chat",
+          siteUrl: "https://devs-chat-iota.vercel.app/"
         },
-        devsChatApi: {
-          title: 'Devs_Chat_API',
-          description: 'The API, which was consumed in the Devs_Chat work.'
+        {
+          title: "Devs_Chat_API",
+          description: "The API that was consumed in the Devs_Chat work. This work was specifically the API, it took a long time, but with it, I learned to create REST APIs that use MongoDB database.",
+          commits: 46,
+          github: "https://github.com/Laiara-Leizer/Devs_Chat_API",
+          siteUrl: "https://devs-chat-api.onrender.com/"
         },
-        restlux: {
-          title: 'RestLux',
-          description: 'Fictional website made with a fake API. The site aims to be a "luxury" restaurant site, predominantly restaurants in Taquara-RS.'
+        {
+          title: "RestLux",
+          description: "Fictional website made with a fake API. The site aims to be a \"luxury\" restaurant site, predominantly featuring restaurants from Taquara-RS.",
+          commits: 14,
+          github: "https://github.com/Laiara-Leizer/RestLux",
+          siteUrl: "https://restlux.vercel.app/"
+        },
+        {
+          title: "Java",
+          description: "My folder with all Java projects organized - IN PROGRESS - As I am organizing about a year of school work.",
+          commits: 0,
+          github: "https://github.com/Laiara-Leizer/Trabalhos_em_java",
+          siteUrl: "/"
         }
-      }
+      ]
     }
   }
 };
@@ -202,4 +234,3 @@ export const LanguageProvider = ({ children }) => {
     </LanguageContext.Provider>
   );
 };
-
