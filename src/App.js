@@ -6,6 +6,9 @@ import Home from './pages/Home/Home';
 import Behavior from './pages/Behavior/Behavior';
 import Knowledge from './pages/Knowledge/Knowledge';
 import Projects from './pages/Projects/Projects';
+import Design from './pages/Design/Design';
+import Curriculo from './pages/Curriculo/Curriculo';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -20,6 +23,8 @@ function App() {
             <Route path="/behavior" element={<Behavior />} />
             <Route path="/knowledge" element={<Knowledge />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/design" element={<Design />} />
+            <Route path="/curriculo" element={<Curriculo />} />
           </Routes>
         </div>
       </Router>

@@ -1,4 +1,5 @@
 import React, { createContext, useState } from 'react';
+import Curriculo from '../pages/Curriculo/Curriculo';
 
 export const LanguageContext = createContext();
 
@@ -11,7 +12,9 @@ const translations = {
     nav: {
       behavior: 'Comportamentos',
       knowledge: 'Conhecimentos',
-      projects: 'Projetos'
+      projects: 'Projetos',
+      designs: 'Designs',
+      Curriculo: 'Curriculo'
     },
     behavior: {
       title: 'Comportamentos',
@@ -33,6 +36,20 @@ const translations = {
         description: 'Mesmo não estando no cargo de gerência, gosto de auxiliar as pessoas e a liderança, colocando minha visão junto à do pessoal, tornando o ambiente mais inclusivo e amigável.'
       }
     },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     knowledge: {
       title: 'Conhecimentos',
       passion: 'Minha maior paixão é a área de criação de sites no front end e o design gráfico.',
@@ -42,7 +59,7 @@ const translations = {
           title: 'Softwares',
           description: 'VSCode, Figma, Xampp, Postman, Intellij, Photoshop, CorelDraw e Wordpress'
         },
-        design: {
+        designs: {
           title: 'Design',
           description: 'Tipografia, Psicologia das cores, UX, UI'
         },
@@ -61,15 +78,33 @@ const translations = {
         frameworks: {
           title: 'Frameworks',
           description: 'Angular, React e Bootstrap'
+        },
+        ia: {
+          title: 'Inteligência Artificial (IA)',
+          description: 'Conhecimentos básicos de inteligência artificial, neste caso a sua utilização para a criação de sites Web. Além disso, em busca de conhecimentos para criar uma no futuro (para fins de aprendizagem);',
+        },
+        additional: {
+          title: 'Adicional',
+          description: 'C, Redes, Manutenção de Computadores e Sistemas Operacionais',
+        },
+        inProgress: {
+          title: 'Em progresso',
+          description: 'Illustrator, InDesign, Inglês',
+        },
+        future: {
+          title: 'Futuro Aprendizado',
+          description: 'Pretendo aprofundar meus conehcimentos em pelo menos um dos itens ao lado: Cyber Segurança, Análise e Desenvolvimento de Sistemas, Gestão de Processos e Métodos Ágeis, Mecatrônica, Engenharia da Computação e/ou Ciência da Computação',
+        },
+        languages: {
+          title: 'Línguas',
+          description: 'Português (nativa) e Inglês (Intermediário)',
+        },
+        Agile: {
+          title: 'Métodologias Agéis',
+          description: 'Entendimento do funcionamento de metodologias ágeis como Kanban, Scrum, ScrunBan e Xp. Mas entendimento prático apenas de Kanban.',
         }
       },
-      ia: 'Conhecimentos básicos de inteligência artificial, neste caso a sua utilização para a criação de sites Web. Além disso, em busca de conhecimentos para criar uma no futuro (para fins de aprendizagem);',
-      additional: 'C, Redes, Manutenção de Computadores e Sistemas Operacionais',
-      inProgress: 'Illustrator, InDesign, Inglês',
-      future: 'Cyber Segurança, Análise e Desenvolvimento de Sistemas, Gestão de Processos e Métodos Ágeis, Mecatrônica, Engenharia da Computação e/ou Ciência da Computação',
-      languages: 'Português (nativa) e Inglês (Intermediário)',
-      Agile: 'Entendimento do funcionamento de metodologias ágeis como Kanban, Scrum, ScrunBan e Xp. Mas entendimento prático apenas de Kanban.'
-    },
+   },
     projects: {
       title: 'Meus Projetos',
       items: [
@@ -109,8 +144,27 @@ const translations = {
           siteUrl: "/"
         }
       ]
+    },
+    designs: {
+      title: 'Meus Designs',
+      description: "Um pouco dos meus Designs",
+    },
+    Curriculo: {
+      title: 'Meu Curiculo',
+      description: "Aqui está meu curriculo, fique a vontade para baixa-lo!",
+      curses: "Aqui está minha pasta de cursos",
+      pdf: "Aqui está meu Curriculo caso queira baixa-lo!",
     }
   },
+  
+  
+  
+  
+  
+  
+  
+  
+  
   en: {
     title: 'Computer Science Student',
     greeting: 'Hi! Nice to meet you, I\'m Laiara Leizer and I\'m a student at Monteiro Lobato State Technical School (Cimol), where I take integrated high school with technical computer science.',
@@ -119,7 +173,9 @@ const translations = {
     nav: {
       behavior: 'Behavior',
       knowledge: 'Knowledge',
-      projects: 'Projects'
+      projects: 'Projects',
+      designs: 'Designs',
+      Curriculo: 'curriculum'
     },
     behavior: {
       title: 'Behavior',
@@ -141,6 +197,12 @@ const translations = {
         description: 'Even when not in a management position, I like to assist people and leadership, bringing my vision together with the team\'s, making the environment more inclusive and friendly.'
       }
     },
+    
+    
+    
+    
+    
+    
     knowledge: {
       title: 'Knowledge',
       passion: 'My biggest passion is frontend website creation and graphic design.',
@@ -169,15 +231,35 @@ const translations = {
         frameworks: {
           title: 'Frameworks',
           description: 'Angular, React and Bootstrap'
+        },
+        ia: {
+          title: 'Artificial Intelligence (IA)',
+          description: 'Basic understanding of artificial intelligence, in this case its use for creating websites. Also, in search of knowledge to create one in the future (for learning purposes);',
+        },
+        
+        additional: {
+          title: 'additional',
+          description: 'C, Networks, Computer Maintenance and Operating Systems',
+        },
+        inProgress: {
+          title: 'In Progress',
+          description: 'Illustrator, InDesign, English',
+        },
+        future: {
+          title: 'future Learn',
+          description: 'Cyber Security, Systems Analysis and Development, Process Management and Agile Methods, Mechatronics, Computer Engineering and/or Computer Science',
+        },
+        languages: {
+          title: 'languages',
+          description: 'Portuguese (native) and English (Intermediate)',
+        },
+        Agile: {
+          title: 'Agile',
+          description: 'Understanding of how agile methodologies such as Kanban, Scrum, ScrunBan and XP work. But only a practical understanding of Kanban.',
         }
       },
-      ia: 'Basic understanding of artificial intelligence, in this case its use for creating websites. Also, in search of knowledge to create one in the future (for learning purposes);',
-      additional: 'C, Networks, Computer Maintenance and Operating Systems',
-      inProgress: 'Illustrator, InDesign, English',
-      future: 'Cyber Security, Systems Analysis and Development, Process Management and Agile Methods, Mechatronics, Computer Engineering and/or Computer Science',
-      languages: 'Portuguese (native) and English (Intermediate)',
-      Agile: 'Understanding of how agile methodologies such as Kanban, Scrum, ScrunBan and XP work. But only a practical understanding of Kanban.'
     },
+
     projects: {
       title: 'My Projects',
       items: [
@@ -217,6 +299,16 @@ const translations = {
           siteUrl: "/"
         }
       ]
+    },
+    designs: {
+      title: 'My Designs',
+      description: "A little of my designs",
+    },
+    Curriculo: {
+      title: 'My curriculum',
+      description: "Here is my curriculum, fique a vontade para baixa-lo!",
+      curses: "Here some cuorses",
+      pdf: "Here my PDF! :D",
     }
   }
 };

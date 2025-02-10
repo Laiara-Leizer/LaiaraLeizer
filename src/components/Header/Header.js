@@ -18,6 +18,8 @@ const Header = () => {
             <Nav.Link as={Link} to="/behavior">{translations.nav.behavior}</Nav.Link>
             <Nav.Link as={Link} to="/knowledge">{translations.nav.knowledge}</Nav.Link>
             <Nav.Link as={Link} to="/projects">{translations.nav.projects}</Nav.Link>
+            <Nav.Link as={Link} to="/design">{translations.nav.designs}</Nav.Link>
+            <Nav.Link as={Link} to="/curriculo">{translations.nav.Curriculo}</Nav.Link>
           </Nav>
           <div className="language-buttons">
             <Button 
@@ -41,4 +43,3 @@ const Header = () => {
 };
 
 export default Header;
-

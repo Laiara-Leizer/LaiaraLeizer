@@ -23,48 +23,6 @@ const Knowledge = () => {
           </Card>
         ))}
 
-        <Card className="mb-4">
-          <Card.Body>
-            <Card.Title>Artificial Intelligence (IA)</Card.Title>
-            <Card.Text>{k.ia}</Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card className="mb-4">
-          <Card.Body>
-            <Card.Title>Additional Skills</Card.Title>
-            <Card.Text>{k.additional}</Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card className="mb-4">
-          <Card.Body>
-            <Card.Title>In Progress</Card.Title>
-            <Card.Text>{k.inProgress}</Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card className="mb-4">
-          <Card.Body>
-            <Card.Title>Future Learning</Card.Title>
-            <Card.Text>{k.future}</Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card className="mb-4">
-          <Card.Body>
-            <Card.Title>Languages</Card.Title>
-            <Card.Text>{k.languages}</Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card className="mb-4">
-          <Card.Body>
-            <Card.Title>Agile Methods</Card.Title>
-            <Card.Text>{k.Agile}</Card.Text>
-          </Card.Body>
-        </Card>
-
       </div>
     </Container>
   );
