@@ -58,6 +58,7 @@
 .project-links {
   display: flex;
   flex-wrap: wrap;
+  place-content: center;
   gap: 1rem;
   margin-top: auto;
 }

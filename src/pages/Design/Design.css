@@ -1,4 +1,50 @@
-.designs h2 {
-    color: #4caf50;
+  .designs {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   
+  .designs-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* gap: 1.5rem; */
+    gap: 3rem;
+    /* padding: 1rem; */
+  }
+  
+  .designs-cards .card {
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid rgba(76, 175, 80, 0.2);
+  }
+  
+  .designs-cards .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .designs-cards .card-title {
+    color: #4caf50;
+    font-weight: 600;
+  }
+  
+  .designs h2 {
+    color: #4caf50;
+  }
+  .designs-cards .Card-Text {
+    color: #000;
+  }
+  .img-designs {
+    color: #000;
+    display: flex;
+    margin-bottom: 1vw;
+    height: 15vh;
+    justify-self: center;
+}
+span{
+    display: flex;
+    place-self: center;
+}
+
+.project-link, .commits {
+  justify-self: center;
+  width: 85%;
+}

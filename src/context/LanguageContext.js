@@ -37,19 +37,6 @@ const translations = {
       }
     },
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     knowledge: {
       title: 'Conhecimentos',
       passion: 'Minha maior paixão é a área de criação de sites no front end e o design gráfico.',
@@ -147,8 +134,27 @@ const translations = {
     },
     designs: {
       title: 'Meus Designs',
-      description: "Um pouco dos meus Designs",
+      description: 'Aqui estão alguns dos meus projetos de design.',
+      categories: {
+        delivery: {
+          title: 'App de Delivery',
+          description: 'Design de um aplicativo de delivery feito no Figma.'
+        },
+        psicda: {
+          title: 'PSICDA',
+          description: 'Site para auxiliar crianças com TDAH.'
+        },
+        armarios: {
+          title: 'Armários Inteligentes',
+          description: 'Projeto de design para armários inteligentes.'
+        },
+        varios: {
+          title: 'Meus Designs',
+          description: 'Todos os meus designs (2021 para 2024)'
+        }
+      },
     },
+
     Curriculo: {
       title: 'Meu Curiculo',
       description: "Aqui está meu curriculo, fique a vontade para baixa-lo!",
@@ -156,15 +162,7 @@ const translations = {
       pdf: "Aqui está meu Curriculo caso queira baixa-lo!",
     }
   },
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   en: {
     title: 'Computer Science Student',
     greeting: 'Hi! Nice to meet you, I\'m Laiara Leizer and I\'m a student at Monteiro Lobato State Technical School (Cimol), where I take integrated high school with technical computer science.',
@@ -300,10 +298,34 @@ const translations = {
         }
       ]
     },
+
+
+
     designs: {
-      title: 'My Designs',
-      description: "A little of my designs",
+      title: 'designs',
+      description: 'My biggest passion is frontend website creation and graphic design.',
+
+
+      categories: {
+        delivery: {
+          title: 'Delivery App',
+          description: 'Design of a delivery app made in Figma.'
+        },
+        psicda: {
+          title: 'PSICDA',
+          description: 'Website to help children with ADHD.'
+        },
+        armarios: {
+          title: 'Smart Lockers',
+          description: 'Design project for smart lockers.'
+        },
+        varios: {
+          title: 'My designs',
+          description: 'All of my designs (2021 to 2024)'
+        }
+      },
     },
+
     Curriculo: {
       title: 'My curriculum',
       description: "Here is my curriculum, fique a vontade para baixa-lo!",
