@@ -39,7 +39,8 @@ const Curriculo = () => {
   }, []);
 
   // Link da pasta no Google Drive
-  const googleDriveLink = "https://drive.google.com/drive/folders/1M5w8XUWFMqHlcyGEgJjQpOZFpulJBvGX?usp=sharing";
+  // const googleDriveLink = "https://drive.google.com/drive/folders/1M5w8XUWFMqHlcyGEgJjQpOZFpulJBvGX?usp=sharing";
+  const googleDriveLink = "https://drive.google.com/file/d/126uj3VGpjBJscqCQeKFdL-HXTpRB9eFz/view?usp=sharing";
 
   return (
     <Container className="Curriculo" ref={containerRef}>
