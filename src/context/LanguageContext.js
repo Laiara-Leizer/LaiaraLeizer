@@ -6,7 +6,7 @@ export const LanguageContext = createContext();
 const translations = {
   pt: {
     title: 'Estudante de Informática',
-    greeting: 'Olá! Prazer, me chamo Laiara Leizer e sou uma estudante da Escola Técnica Estadual Monteiro Lobato (Cimol), a qual faço o ensino médio integrado ao técnico de informática.',
+    greeting: 'Olá! Prazer, me chamo Laiara Leizer e uma Técnica em informática, formada na Escola Técnica Estadual Monteiro Lobato (Cimol), a qual faço o ensino médio integrado ao técnico de informática. Estou estudando na FACCAT desde 03/2025. E irei me formar em Sistemas para informação em 12/2030 (previsão). Atualmente trabalho na empresa Villa santa claus, como personagem artistico chamado ajudante do papai noel; Decidi trabalhar lá para melhorar finaceiramente minha vida, e também para adquirir experiência no mercado de trabalho, vendas e em abordar/falar com as pessoas. Resumidamente, saber como lidar com o público. Estou a procura de um emprego meio periodo na area de TI para não parar de trabalhar na minha área de paixão e também para adquirir mais experiência na minha área. O horario que tenho disponível é entre 09:00 e 12:00 de segunda a sábado. E também trabalho com freelas.',
     about: 'Sou uma pessoa que ama estudar novas coisas, aprimorar o conhecimento e ajudar as pessoas a conseguirem o mesmo.',
     cta: 'Fiquem a vontade para visualizar meu trabalho abaixo e contatar-me.',
     nav: {
@@ -165,9 +165,7 @@ const translations = {
 
   en: {
     title: 'Computer Science Student',
-    greeting: 'Hi! Nice to meet you, I\'m Laiara Leizer and I\'m a student at Monteiro Lobato State Technical School (Cimol), where I take integrated high school with technical computer science.',
-    about: 'I\'m someone who loves studying new things, improving knowledge and helping people achieve the same.',
-    cta: 'Feel free to view my work below and contact me.',
+    greeting: "Hello! Nice to meet you! My name is Laiara Leizer, a computer technician, graduated from Monteiro Lobato State Technical School (Cimol), where I'm completing high school integrated with the computer technician program. I've been studying at FACCAT since March 2025. I'll graduate with a degree in Information Systems in December 2030 (estimated). I currently work at Villa Santa Claus, as an artistic character called Santa's Helper. I decided to work there to improve my financial situation and also to gain experience in the job market, sales, and approaching/speaking with people. In short, to learn how to deal with the public. I'm looking for a part-time job in IT to continue working in my field of passion and to gain more experience in my field. My available hours are between 9:00 AM and 12:00 PM, Monday through Saturday. I also work freelance.",
     nav: {
       behavior: 'Behavior',
       knowledge: 'Knowledge',
