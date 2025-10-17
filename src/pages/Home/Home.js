@@ -27,7 +27,7 @@ const Home = () => {
               <div className="overlay-content">
                 <h3>Laiara Leizer</h3>
                 <p>Idade: 19 anos</p>
-                <p>Status: Procurando Estágio meio periodo. 09:00 até 12:00</p>
+                <p>Status: Procurando Estágio meio periodo. 00:00 até 04:00 expandivel até 06:00</p>
               </div>
             </div>
           </div>
