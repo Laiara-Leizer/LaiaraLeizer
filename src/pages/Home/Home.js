@@ -26,8 +26,8 @@ const Home = () => {
             <div className="profile-overlay">
               <div className="overlay-content">
                 <h3>Laiara Leizer</h3>
-                <p>Idade: 18 anos</p>
-                <p>Status: Procurando Estágio</p>
+                <p>Idade: 19 anos</p>
+                <p>Status: Procurando Estágio meio periodo. 09:00 até 12:00</p>
               </div>
             </div>
           </div>
